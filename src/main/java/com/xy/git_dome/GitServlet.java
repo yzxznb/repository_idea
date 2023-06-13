@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 public class GitServlet extends HttpServlet {
     @Override
     protected  void doGet(HttpServletRequest request, HttpServletResponse response){
-
+        System.out.println("doget方法");
     }
 
     @Override
